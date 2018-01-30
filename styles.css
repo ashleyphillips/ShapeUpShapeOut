@@ -1,0 +1,37 @@
+#container {
+    height: 600px;
+    width: 600px;
+    background-color: lightcoral;
+    margin-left: 200px;
+    position: relative;
+}
+.sidebar {
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+}
+input {
+    margin: 10px;
+}
+button {
+    margin-left: 10px;
+}
+.circle {
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+}
+.triangle {
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-bottom: 100px solid yellow;
+	border-right: 100px solid transparent;
+}
+.square {
+    background-color: red;
+    position: absolute;
+}
+.rectangle {
+    background-color: green;
+    position: absolute;
+}
